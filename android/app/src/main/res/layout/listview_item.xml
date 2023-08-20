@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <TextView
+        android:id="@+id/contact_name_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_txt"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/contact_name_txt"
+        android:layout_marginStart="4dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/contact_phone_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_txt"
+        android:layout_below="@id/contact_name_txt"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/contact_phone_txt"
+        android:layout_below="@id/contact_name"
+        android:layout_marginStart="4dp"
+        android:textSize="17sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:focusable="false"
+        android:clickable="false"
+        android:visibility="gone">
+    </CheckBox>
+
+</RelativeLayout>
