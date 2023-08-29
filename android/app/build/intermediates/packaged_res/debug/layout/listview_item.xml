@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_layout">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/second_layout"
+            android:id="@+id/checkBox"
+            android:focusable="false"
+            android:clickable="false"
+            android:visibility="gone">
+        </CheckBox>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_layout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_name_txt"
+            android:text="@string/name_txt"
+            android:textStyle="bold"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_name"
+            android:text="@string/hint_name"
+            android:layout_toEndOf="@id/contact_name_txt"
+            android:layout_marginStart="4dp"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/third_layout"
+        android:layout_below="@id/second_layout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_phone_txt"
+            android:text="@string/phone_txt"
+            android:textStyle="bold"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_phone"
+            android:text="@string/hint_phone"
+            android:layout_toEndOf="@id/contact_phone_txt"
+            android:layout_marginStart="4dp"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
