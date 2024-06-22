@@ -1,10 +1,10 @@
 Mobile app for android devices for inserting phone records in an sql database, and working with those records via the functionalities that the app offers.
 The project is made with Android Studio (IDE) Version: 2024.1.1. Used programing languages are: Java, XML, SQL, HTML. The data source for the app is made via the helper class - "SQLiteOpenHelper", which is implemented in the IDE.
 The minimum SDK for the project is 19, which means the minimum requirements for running the app is to have Android version 4.4 and higher.
-<p><b>NOTE:</b> If you want to check out the files from the project, extract the archives: "Phone records - files vol. 1" and "Phone records - files vol. 2" in the folder "Phone records" (depending on the version), to your folder of liking.</p>
+<p><b>NOTE:</b> If you want to check out the files from the project, extract the archives: "Phone records - files vol. 1" and "Phone records - files vol. 2" in the folder "Phone records v1.0", to your folder of liking.</p>
 
 <h3>Changelog:</h3>
-<h4>Version 2.0</h4>
+<h4>Version 1.0</h4>
 <p>• Name of the app is changed to: "Phone records".</p>
 <p>• App icon changed.</p>
 <p>• Added a activity for adding a record.</p>
