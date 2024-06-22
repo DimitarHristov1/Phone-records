@@ -4,5 +4,5 @@ The project is made with Android Studio (IDE) Version: 2022.3.1 Patch 1. Used pr
 The minimum SDK for the project is 19, which means the minimum requirements for running the app is to have Android version 4.4 and higher.
 NOTE: Not all necessary files for the project are uploaded, but the important ones (with the necessary code) are in the directory: android/app/src/main of the repository!
 
-<h4>Changelog:</h4>
-• Version 2.0
+<h2>Changelog:</h2>
+<h3>Version 2.0</h3>
