@@ -1,3 +1,0 @@
-com.a13118059.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme
