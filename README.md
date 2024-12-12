@@ -9,7 +9,8 @@ The minimum SDK for the project is 19, which means the minimum requirements for 
 <p>• Fixed bugs when deleting contacts.</p>
 <p>• Added a label to show the count of contacts saved by the user.</p>
 <p>• Implemented a search functionality.</p>
-<p>• Added an import function from an external ".vcf" file.</p>
+<p>• Added an import function from an external ".vcf" file.</br>
+<ins>Note:</ins> If a contact imported from an external ".vcf" file doesn't have a mobile number, the app will display the phone number as "No mobile number for contact!". The user must edit the contact first, to be able to call it!</p>
 <p>• Added an export function to an external ".vcf" file.</p>
 <h4><ins>Version 1.0</ins></h4>
 <p>• Name of the app is changed to: "Phone records".</p>
