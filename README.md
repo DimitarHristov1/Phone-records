@@ -10,7 +10,7 @@ The minimum SDK for the project is 19, which means the minimum requirements for 
 <p>• Added a activity for adding a record.</p>
 <p>• Added a activity for editing a record.</p>
 <p>• Added a regex validation on the name and phone text boxes in the main activity and in the activity for editing a record.</p>
-<p>• Added information about adding, editing and the features the user can use in the activities, via alert dialogs.</p>
+<p>• Added information about adding, editing, and the features the user can use in the activities, via alert dialogs.</p>
 <p>• Added alert dialogs for accepting or declining the undertaken user action.</p>
 <p>• Added a call function, for making a call via the native caller app on the user's device.</p>
 <p>• Added a function to check if the call permission is enabled on the app, and if not the user cannot access the call function.</p>
