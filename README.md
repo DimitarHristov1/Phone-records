@@ -4,7 +4,7 @@ The minimum SDK for the project is 19, which means the minimum requirements for 
 <p><b>NOTE:</b> If you want to check out the files from the project, extract the archives: "Phone records - files vol. 1" and "Phone records - files vol. 2" from the folder: Phone records v1.0 or v2.0, to your folder of liking.</p>
 
 <h3>Changelog:</h3>
-<h4><u>Version 2.0</u></h4>
+<u><h4>Version 2.0</h4></u>u>
 <p>• Fixed bugs with dragging at the top of the contact list, if its too big, when exiting the action mode.</p>
 <p>• Fixed bugs when deleting contacts.</p>
 <p>• Added a label to show the count of contacts saved by the user.</p>
